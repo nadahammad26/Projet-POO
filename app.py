@@ -24,7 +24,7 @@ def init_db():
             print("Initialisation avec les nouveaux clubs...")
             
             # Création des présidents
-            pres1 = President(nom="Zidane", prenom="Abdel", email="abdel.zidane@email.com", password="pass123", filiere="Génie Logiciel", telephone="0601020304")
+            pres1 = President(nom="Zidane", prenom="Abdel", email="abdel.zidane@email.com", password="pass123!", filiere="Génie Logiciel", telephone="0601020304")
             pres2 = President(nom="Lalami", prenom="Sara", email="sara.lalami@email.com", password="pass456", filiere="Management", telephone="0605060708")
             pres3 = President(nom="El Amrani", prenom="Yassine", email="yassine.elamrani@email.com", password="pass789", filiere="Design", telephone="0609101112")
             pres4 = President(nom="Bennani", prenom="Sofia", email="sofia.bennani@email.com", password="pass321", filiere="Social", telephone="0613141516")
